@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="Md. Abir Bin Kabir — Software & Flutter Developer building modern mobile and web applications.">
+  <meta name="author" content="Md. Abir Bin Kabir">
+  <meta property="og:title" content="Md. Abir Bin Kabir | Developer Portfolio">
+  <meta property="og:description" content="Explore my projects, technical skills and get in touch.">
+  <title>Md. Abir Bin Kabir | Software & Flutter Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Abir home"><span class="brand-mark">A<span>.</span></span><span>Abir <small>Bin Kabir</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i class="fa-solid fa-bars"></i></button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About</a><a class="nav-link" href="#skills">Skills</a><a class="nav-link" href="#projects">Projects</a><a class="nav-link" href="#resume">CV</a><a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <a class="button button-small button-primary nav-cta" href="#contact">Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="availability"><span class="pulse-dot"></span> Open to opportunities</div>
+          <p class="eyebrow">SOFTWARE &amp; FLUTTER DEVELOPER <span class="eyebrow-line"></span></p>
+          <h1>Turning ideas into<br><span class="gradient-text">digital experiences.</span></h1>
+          <p class="hero-description">Hi, I'm <strong>Md. Abir Bin Kabir</strong>, a developer from Bangladesh passionate about building modern, useful and user-friendly mobile and web applications.</p>
+          <div class="hero-tags"><span><i class="fa-solid fa-mobile-screen-button"></i> Flutter</span><span><i class="fa-solid fa-code"></i> Dart</span><span><i class="fa-solid fa-fire"></i> Firebase</span><span><i class="fa-solid fa-database"></i> MySQL</span></div>
+          <div class="hero-actions"><a class="button button-primary" href="#projects">Explore My Work <i class="fa-solid fa-arrow-right"></i></a><a class="button button-outline" href="#contact"><i class="fa-regular fa-paper-plane"></i> Contact Me</a></div>
+          <div class="hero-socials" aria-label="Social links">
+            <span>Find me on</span>
+            <a href="https://github.com/abirprogrammer" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/ewr.abir.645339" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/8801967848464" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:kmdabirbin@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero-art reveal delay-1">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-showcase">
+            <div class="profile-ring profile-ring-one"></div><div class="profile-ring profile-ring-two"></div>
+            <div class="profile-photo-frame">
+              <div class="profile-photo-glow"></div>
+              <img class="hero-profile-photo" src="assets/profile.jpeg" alt="Portrait of Md. Abir Bin Kabir, Flutter Developer" fetchpriority="high">
+              <div class="profile-photo-shade"></div>
+              <div class="profile-photo-caption"><span class="profile-online-dot"></span><span><strong>Md. Abir Bin Kabir</strong><small>Flutter Developer · Bangladesh</small></span></div>
+            </div>
+            <div class="profile-tech-badge badge-flutter"><i class="fa-solid fa-mobile-screen-button"></i><span><strong>Flutter</strong><small>Cross-platform apps</small></span></div>
+            <div class="profile-tech-badge badge-dart"><i class="fa-solid fa-code"></i><span><strong>Dart</strong><small>Clean, modern code</small></span></div>
+            <div class="profile-floating-icon floating-github"><i class="fa-brands fa-github"></i></div>
+            <div class="profile-floating-icon floating-spark"><i class="fa-solid fa-sparkles"></i></div>
+          </div>
+          <div class="float-chip chip-flutter"><i class="fa-solid fa-mobile-screen-button"></i> Flutter &amp; Dart</div>
+          <div class="float-chip chip-api"><i class="fa-solid fa-bolt"></i> API Integration</div>
+          <div class="hero-card-mini"><div class="mini-avatar"><img src="assets/profile.jpeg" alt="Md. Abir Bin Kabir profile photo"></div><div><strong>Md. Abir Bin Kabir</strong><small>Building • Learning • Improving</small></div><span class="mini-check"><i class="fa-solid fa-check"></i></span></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-kicker">A LITTLE ABOUT ME</span><h2>Thoughtful code.<br><span class="gradient-text">Meaningful products.</span></h2><p>I enjoy turning complex ideas into simple, polished digital experiences.</p></div>
+        <div class="about-grid">
+          <article class="about-panel glass-panel reveal"><div class="panel-icon"><i class="fa-solid fa-code"></i></div><h3>Who I Am</h3><p>I'm Md. Abir Bin Kabir, a Software &amp; Flutter Developer focused on creating modern and reliable applications. My interests span cross-platform mobile development, backend integration and responsive web experiences.</p><p>I value clean code, continuous learning, usability and building projects that solve real problems.</p><blockquote><i class="fa-solid fa-quote-left"></i> Learn every day. Build with purpose. Improve consistently.</blockquote></article>
+          <div class="about-highlights reveal delay-1">
+            <article class="highlight-card"><span class="highlight-icon purple"><i class="fa-solid fa-mobile-screen-button"></i></span><div><h3>Mobile Development</h3><p>Cross-platform apps with Flutter and Dart.</p></div></article>
+            <article class="highlight-card"><span class="highlight-icon blue"><i class="fa-solid fa-server"></i></span><div><h3>Backend &amp; APIs</h3><p>Connecting apps with services, data and APIs.</p></div></article>
+            <article class="highlight-card"><span class="highlight-icon green"><i class="fa-solid fa-layer-group"></i></span><div><h3>Modern Web</h3><p>Responsive layouts and interactive interfaces.</p></div></article>
+            <article class="highlight-card"><span class="highlight-icon orange"><i class="fa-solid fa-rocket"></i></span><div><h3>Always Learning</h3><p>Exploring tools and improving my craft.</p></div></article>
+          </div>
+        </div>
+        <div class="tech-cloud reveal"><span>Flutter</span><span>Dart</span><span>Firebase</span><span>REST API</span><span>PHP</span><span>MySQL</span><span>Java</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Git</span><span>GitHub</span></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-kicker">WHAT I WORK WITH</span><h2>My technical <span class="gradient-text">toolkit.</span></h2><p>A growing set of technologies for building complete digital products.</p></div>
+        <div class="skill-filters reveal" role="group" aria-label="Filter skills"><button class="filter-btn active" data-filter="all">All Skills</button><button class="filter-btn" data-filter="mobile">Mobile</button><button class="filter-btn" data-filter="backend">Backend</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="tools">Tools</button></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal" data-category="mobile"><span class="skill-icon skill-purple"><i class="fa-solid fa-mobile-screen-button"></i></span><div><h3>Flutter</h3><p>Cross-platform app development</p></div><span class="skill-type">Mobile</span></article>
+          <article class="skill-card reveal" data-category="mobile"><span class="skill-icon skill-blue"><i class="fa-solid fa-bullseye"></i></span><div><h3>Dart</h3><p>Modern application programming</p></div><span class="skill-type">Mobile</span></article>
+          <article class="skill-card reveal" data-category="backend"><span class="skill-icon skill-orange"><i class="fa-solid fa-fire"></i></span><div><h3>Firebase</h3><p>App services and cloud tools</p></div><span class="skill-type">Backend</span></article>
+          <article class="skill-card reveal" data-category="backend"><span class="skill-icon skill-green"><i class="fa-solid fa-plug"></i></span><div><h3>REST APIs</h3><p>API integration and data exchange</p></div><span class="skill-type">Backend</span></article>
+          <article class="skill-card reveal" data-category="backend"><span class="skill-icon skill-blue"><i class="fa-brands fa-php"></i></span><div><h3>PHP &amp; MySQL</h3><p>Server-side and database basics</p></div><span class="skill-type">Backend</span></article>
+          <article class="skill-card reveal" data-category="web"><span class="skill-icon skill-orange"><i class="fa-brands fa-js"></i></span><div><h3>JavaScript</h3><p>Interactive web experiences</p></div><span class="skill-type">Web</span></article>
+          <article class="skill-card reveal" data-category="web"><span class="skill-icon skill-blue"><i class="fa-brands fa-html5"></i></span><div><h3>HTML &amp; CSS</h3><p>Responsive interface development</p></div><span class="skill-type">Web</span></article>
+          <article class="skill-card reveal" data-category="web"><span class="skill-icon skill-red"><i class="fa-brands fa-java"></i></span><div><h3>Java</h3><p>Programming and OOP fundamentals</p></div><span class="skill-type">Programming</span></article>
+          <article class="skill-card reveal" data-category="tools"><span class="skill-icon skill-dark"><i class="fa-brands fa-github"></i></span><div><h3>Git &amp; GitHub</h3><p>Version control and repositories</p></div><span class="skill-type">Tools</span></article>
+          <article class="skill-card reveal" data-category="tools"><span class="skill-icon skill-green"><i class="fa-solid fa-vial"></i></span><div><h3>Postman</h3><p>API testing workflow</p></div><span class="skill-type">Tools</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal"><span class="section-kicker">FEATURED WORK</span><h2>Projects from <span class="gradient-text">GitHub.</span></h2><p>Explore my public repositories. This section loads directly from my GitHub profile.</p></div>
+        <div class="repo-toolbar reveal"><div class="repo-account"><span class="repo-github"><i class="fa-brands fa-github"></i></span><div><strong>abirprogrammer</strong><small id="repoStatus">Loading public repositories…</small></div></div><a class="button button-outline" href="https://github.com/abirprogrammer" target="_blank" rel="noopener noreferrer">View GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        <div class="projects-grid" id="projectsGrid" aria-live="polite"><div class="project-loading"><span class="spinner"></span><p>Fetching public repositories from GitHub…</p></div></div>
+        <div class="project-footer"><p>Want to see more of my code and experiments?</p><a href="https://github.com/abirprogrammer?tab=repositories" target="_blank" rel="noopener noreferrer">Explore all repositories <i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="resume">
+      <div class="container resume-grid">
+        <div class="resume-copy reveal"><span class="section-kicker">MY RESUME</span><h2>Get to know my<br><span class="gradient-text">journey.</span></h2><p>View my CV right here or open it in a separate tab. My CV is available to view here or download as a PDF.</p><div class="resume-actions"><a class="button button-primary" href="cv.pdf" target="_blank" rel="noopener" id="viewCvBtn"><i class="fa-regular fa-file-pdf"></i> View Full CV</a><a class="button button-outline" href="cv.pdf" download id="downloadCvBtn"><i class="fa-solid fa-download"></i> Download CV</a></div><p class="resume-note"><i class="fa-solid fa-circle-check"></i> CV PDF is included with this website.</p></div>
+        <div class="resume-preview reveal delay-1"><div class="preview-top"><span><i class="fa-regular fa-file-pdf"></i> CV Preview</span><span class="preview-live"><i></i> PDF</span></div><div class="pdf-frame-wrap" id="pdfFrameWrap"><iframe src="cv.pdf#toolbar=0&navpanes=0" title="CV PDF preview" id="cvFrame"></iframe><div class="pdf-placeholder" id="pdfPlaceholder"><i class="fa-regular fa-file-pdf"></i><h3>Loading CV preview</h3><p>If the preview does not appear, use the View Full CV button.</p><span>cv.pdf</span></div></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container"><div class="contact-panel reveal"><div class="contact-copy"><span class="section-kicker">LET'S CONNECT</span><h2>Have a project in mind?<br><span class="gradient-text">Let's build it.</span></h2><p>Have an idea, a collaboration opportunity or a question? Feel free to reach out through any of the channels below.</p><a class="email-link" href="mailto:kmdabirbin@gmail.com"><i class="fa-regular fa-envelope"></i><span><small>Email me at</small><strong>kmdabirbin@gmail.com</strong></span><i class="fa-solid fa-arrow-up-right-from-square email-arrow"></i></a></div><div class="contact-links">
+          <a href="https://github.com/abirprogrammer" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-icon"><i class="fa-brands fa-github"></i></span><span><strong>GitHub</strong><small>Repositories &amp; code</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://www.facebook.com/ewr.abir.645339" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-icon facebook"><i class="fa-brands fa-facebook-f"></i></span><span><strong>Facebook</strong><small>Connect with me</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://wa.me/8801967848464" target="_blank" rel="noopener noreferrer" class="contact-link"><span class="contact-link-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></span><span><strong>WhatsApp</strong><small>+880 1967-848464</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="mailto:kmdabirbin@gmail.com" class="contact-link"><span class="contact-link-icon mail"><i class="fa-regular fa-envelope"></i></span><span><strong>Gmail</strong><small>Send an email</small></span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand" href="#home"><span class="brand-mark">A<span>.</span></span><span>Abir <small>Bin Kabir</small></span></a><p>Building useful things, one line of code at a time.</p><div class="footer-socials"><a href="https://github.com/abirprogrammer" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.facebook.com/ewr.abir.645339" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="https://wa.me/8801967848464" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a><a href="mailto:kmdabirbin@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Md. Abir Bin Kabir. All rights reserved.</span><a href="#top">Back to top ↑</a></div></footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+</body>
+</html>
